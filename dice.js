@@ -48,6 +48,7 @@ $('#rolldice').click(() => {
 
 $('#sumdice').click(() => {
     let sum = 0;
+    //ES6 Syntax for running for of thru an Array
     for (let dice of diearray) {
         sum += dice.value;
     }
